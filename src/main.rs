@@ -89,7 +89,8 @@ fn listen_for_tracks() {
                     }
                     None => (),
                 },
-                Err(e) => eprintln!("Error: {:#?}", e),
+                Err(_) => (),
+                // Err(e) => eprintln!("Error: {:#?}", e),
             };
             drop(spotify_guard);
             std::thread::sleep(std::time::Duration::from_secs(1));
