@@ -10,7 +10,7 @@ The first time running s2yt, it will ask for a Spotify Client ID. To obtain this
 2. Create a new application
 3. Take the email address you registered your spotify account under, and add it as a user/tester
 4. Edit the settings for the application, and add http://localhost:8888/callback under "Redirect URIs"
-5. Save, and copy the Client ID and give it to s2yt when it asks for it. 
+5. Save, copy the Client ID and give it to s2yt when it asks for it. 
 
 Now you should be able to connect your Spotify account to s2yt (It will ask for it).
 
