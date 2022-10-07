@@ -2,6 +2,10 @@
 
 s2yt is a utility to automatically copy a YouTube URL to the clipboard for the currently playing Spotify track. Whenever it detects a new track being played, it will look it up on YouTube and copy the URL for it to your clipboard automatically.
 
+## Download
+
+Grab the latest release [here](https://github.com/Raphiiko/s2yt/releases/tag/refs%2Fheads%2Fmain)
+
 ## Usage
 
 The first time running s2yt, it will ask for a Spotify Client ID. To obtain this, you need to do the following:
